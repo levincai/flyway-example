@@ -1,2 +1,2 @@
 # flyway-example
-An easy flyway setup for maven project
+An easy flyway setup for maven projects
