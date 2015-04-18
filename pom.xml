@@ -51,6 +51,7 @@
                 <configuration>
                     <url>jdbc:h2:file:target/sampleDB</url>
                     <user>sa</user>
+                    <sqlMigrationPrefix>v</sqlMigrationPrefix>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -59,6 +60,13 @@
                         <version>${h2database.version}</version>
                     </dependency>
                 </dependencies>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>validate</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
