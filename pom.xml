@@ -63,7 +63,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>validate</goal>
+                            <goal>migrate</goal>
                             <goal>info</goal>
                         </goals>
                     </execution>
