@@ -1,0 +1,1 @@
+INSERT INTO CUSTOMER (ID, NAME, ADDRESS) values (3, 'Lisa Simpson', 'Park West, San Diego CA');
