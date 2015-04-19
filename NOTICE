@@ -1,0 +1,8 @@
+rufer7 flyway-example
+Copyright 2015 Marc Rufer
+
+This product includes software developed by
+Marc Rufer (https://github.com/rufer7)
+
+The flyway-example depends on:
+flyway (http://flywaydb.org/) - Apache License 2.0
